@@ -1,0 +1,105 @@
+body{
+    width                : 100%;
+    height               : 500px;
+    background-attachment: fixed;
+    background-size      : cover;
+    background-image     : url("img/fotofundo.jpg");
+}   
+
+.logo{
+    width    : 180px;
+    transform: translateY(-2px);
+}
+
+.navbar{
+    height    : 100px;
+    transition: all 0.3s;
+}
+
+.navbar-scrolled{
+    background-color: black;
+    box-shadow      : 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.carousel img{
+    height       : 480px;
+    object-fit   : cover;
+    filter       : brightness(0.9);
+    border-radius: 30px;
+}
+
+.row-main{
+    display     : flex;
+    margin-left : -15px;
+    margin-right: -15px;
+    margin-top  : 250px;
+}
+
+.row{
+    display     : flex;
+    margin-left : -15px;
+    margin-right: -15px;
+    margin-top  : 150px;
+}
+
+.nav-link{
+    color: white!important;
+}
+
+h2 {
+    display            : block;
+    font-size          : 1.5em;
+    margin-block-start : 0.83em;
+    margin-block-end   : 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end  : 0px;
+    font-weight        : bold;
+    unicode-bidi       : isolate;
+}
+
+.btn-dark{
+    color           : white;
+    background-color: black;
+}
+
+.btn{
+    margin-top: 5px;
+    align-self: center;
+    width     : 50%;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.thumbnail-img:hover{
+    transform   : scale(110%);
+    border-style: groove;
+}
+
+.img-thumbnail h3{
+    font-size: 1.4em;
+}
+
+.img-thumbnail p{
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 800px){
+    .carousel img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .carousel img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .carousel img{
+        height: 250px;
+    }
+}
